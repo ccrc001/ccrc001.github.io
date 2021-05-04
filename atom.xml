@@ -6,7 +6,7 @@
   <link href="http://ccrc001.github.io/atom.xml" rel="self"/>
   
   <link href="http://ccrc001.github.io/"/>
-  <updated>2021-05-04T14:38:27.750Z</updated>
+  <updated>2021-05-04T15:14:31.708Z</updated>
   <id>http://ccrc001.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>自定义登录页面</title>
+    <link href="http://ccrc001.github.io/2021/05/04/zi-ding-yi-deng-lu-ye-mian/"/>
+    <id>http://ccrc001.github.io/2021/05/04/zi-ding-yi-deng-lu-ye-mian/</id>
+    <published>2021-05-04T15:01:26.000Z</published>
+    <updated>2021-05-04T15:14:31.708Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一个别具一格的登录页面&quot;&gt;&lt;a href=&quot;#一个别具一格的登录页面&quot; class=&quot;headerlink&quot; title=&quot;一个别具一格的登录页面&quot;&gt;&lt;/a&gt;一个别具一格的登录页面&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;style位置&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    
+    <category term="html" scheme="http://ccrc001.github.io/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
     <title>快速搭建炫丽的博客</title>
     <link href="http://ccrc001.github.io/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/"/>
     <id>http://ccrc001.github.io/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/</id>
     <published>2021-05-04T14:10:45.000Z</published>
-    <updated>2021-05-04T14:38:27.750Z</updated>
+    <updated>2021-05-04T14:58:24.073Z</updated>
     
     
       
