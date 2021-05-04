@@ -6,7 +6,7 @@
   <link href="http://ccrc001.github.io/atom.xml" rel="self"/>
   
   <link href="http://ccrc001.github.io/"/>
-  <updated>2021-05-03T13:56:29.683Z</updated>
+  <updated>2021-05-04T14:33:30.866Z</updated>
   <id>http://ccrc001.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>快速搭建炫丽的博客</title>
+    <link href="http://ccrc001.github.io/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/"/>
+    <id>http://ccrc001.github.io/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/</id>
+    <published>2021-05-04T14:10:45.000Z</published>
+    <updated>2021-05-04T14:33:30.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;网站搭建&quot;&gt;&lt;a href=&quot;#网站搭建&quot; class=&quot;headerlink&quot; title=&quot;网站搭建&quot;&gt;&lt;/a&gt;网站搭建&lt;/h1&gt;&lt;h2 id=&quot;需要的软件编辑器&quot;&gt;&lt;a href=&quot;#需要的软件编辑器&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="web" scheme="http://ccrc001.github.io/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
