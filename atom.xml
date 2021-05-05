@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ccrc</title>
   <icon>http://ccrc001.github.io/icon.png</icon>
-  <subtitle>白小纯</subtitle>
+  <subtitle>山山而川</subtitle>
   <link href="http://ccrc001.github.io/atom.xml" rel="self"/>
   
   <link href="http://ccrc001.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://ccrc001.github.io/</id>
   
   <author>
-    <name>弗兰奇厂长</name>
+    <name>山山而川</name>
     
   </author>
   
