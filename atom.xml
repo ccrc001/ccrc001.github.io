@@ -6,7 +6,7 @@
   <link href="http://ccrc001.github.io/atom.xml" rel="self"/>
   
   <link href="http://ccrc001.github.io/"/>
-  <updated>2021-05-04T15:14:31.708Z</updated>
+  <updated>2021-05-05T07:27:45.292Z</updated>
   <id>http://ccrc001.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo添加helper-live2d动态模型插件</title>
+    <link href="http://ccrc001.github.io/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/"/>
+    <id>http://ccrc001.github.io/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/</id>
+    <published>2021-05-05T06:28:02.000Z</published>
+    <updated>2021-05-05T07:27:45.292Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hexo博客详细添加helper-live2d动态模型插件&quot;&gt;&lt;a href=&quot;#Hexo博客详细添加helper-live2d动态模型插件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>自定义登录页面</title>
