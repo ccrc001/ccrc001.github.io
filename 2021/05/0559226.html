@@ -29,7 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="ccrc" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="ccrc" type="application/atom+xml">
 </head>
 
 
@@ -471,14 +473,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    663
+                    644
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    2 分
                 </div>
                 
 
@@ -499,10 +501,10 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="Hexo博客详细添加helper-live2d动态模型插件"><a href="#Hexo博客详细添加helper-live2d动态模型插件" class="headerlink" title="Hexo博客详细添加helper-live2d动态模型插件"></a>Hexo博客详细添加helper-live2d动态模型插件</h1><h3 id="1-安装模块"><a href="#1-安装模块" class="headerlink" title="1.安装模块"></a>1.安装模块</h3><p> <strong>在hexo根目录执行命令</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></tbody></table></figure>
 
 <p>如何卸载模型</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall --save hexo-helper-live2d </span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall --save hexo-helper-live2d </span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="2-下载喜欢的模型"><a href="#2-下载喜欢的模型" class="headerlink" title="2.下载喜欢的模型"></a>2.下载喜欢的模型</h3><p>  作者各种模型包展示 ➡️ <a target="_blank" rel="noopener" href="https://huaji8.top/post/live2d-plugin-2.0/">hexo live2d插件 2.0 !</a></p>
 <p><a target="_blank" rel="noopener" href="https://github.com/xiazeyu/live2d-widget-models">live2d模型仓库直达</a></p>
@@ -534,9 +536,9 @@
 <p>我用的是 <code>npm install live2d-widget-model-hibiki</code></p>
 <h3 id="3-详细配置"><a href="#3-详细配置" class="headerlink" title="3.详细配置"></a>3.详细配置</h3><p>1.提前在根目录下创建 <code>live2d_models</code> 目录<br><img src="/img/cjml.png">  </p>
 <p>2.下载好的模型库会在根目录node_modules文件夹中，在该文件夹中搜索模型库名称<code>live2d-widget-model-hibiki</code>将里面的内容复制到提前创建好的目录下<code>live2d_models</code><br><img src="/img/mlx.png"><br>3.开始配置根目录下的<code>_config.yml</code> 文件在底部添加如下操作   </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"># 看板娘</span><br><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  #enable: false</span><br><span class="line">  scriptFrom: local # 默认</span><br><span class="line">  pluginRootPath: live2dw&#x2F; # 插件在站点上的根目录(相对路径)</span><br><span class="line">  pluginJsPath: lib&#x2F; # 脚本文件相对与插件根目录路径</span><br><span class="line">  pluginModelPath: assets&#x2F; # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;live2d-widget@3.x&#x2F;lib&#x2F;L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">  debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-hibiki</span><br><span class="line">    # use: live2d-widget-model-wanko # npm-module package name</span><br><span class="line">    # use: wanko # 博客根目录&#x2F;live2d_models&#x2F; 下的目录名</span><br><span class="line">    # use: .&#x2F;wives&#x2F;wanko # 相对于博客根目录的路径</span><br><span class="line">    # use: https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;live2d-widget-model-wanko@1.0.5&#x2F;assets&#x2F;wanko.model.json # 你的自定义 url</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 145</span><br><span class="line">    height: 315</span><br><span class="line">    hOffset: 60 # 水平偏移 </span><br><span class="line">    vOffset: 5 # 垂直偏移</span><br><span class="line">  mobile:</span><br><span class="line">    show: true # 是否在移动设备上显示</span><br><span class="line">    scale: 0.5 # 移动设备上的缩放       </span><br><span class="line">  react:</span><br><span class="line">    opacityDefault: 0.7</span><br><span class="line">    opacityOnHover: 0.8</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"># 看板娘</span><br><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  #enable: false</span><br><span class="line">  scriptFrom: local # 默认</span><br><span class="line">  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</span><br><span class="line">  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</span><br><span class="line">  pluginModelPath: assets/ # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">  debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-hibiki</span><br><span class="line">    # use: live2d-widget-model-wanko # npm-module package name</span><br><span class="line">    # use: wanko # 博客根目录/live2d_models/ 下的目录名</span><br><span class="line">    # use: ./wives/wanko # 相对于博客根目录的路径</span><br><span class="line">    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 145</span><br><span class="line">    height: 315</span><br><span class="line">    hOffset: 60 # 水平偏移 </span><br><span class="line">    vOffset: 5 # 垂直偏移</span><br><span class="line">  mobile:</span><br><span class="line">    show: true # 是否在移动设备上显示</span><br><span class="line">    scale: 0.5 # 移动设备上的缩放       </span><br><span class="line">  react:</span><br><span class="line">    opacityDefault: 0.7</span><br><span class="line">    opacityOnHover: 0.8</span><br></pre></td></tr></tbody></table></figure>
 <p>注意！   </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">model:</span><br><span class="line">  use: live2d-widget-model-hibiki # 这里添加你的模型</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">model:</span><br><span class="line">  use: live2d-widget-model-hibiki # 这里添加你的模型</span><br></pre></td></tr></tbody></table></figure>
 
 <p>4.上传<br>1.第一步清除缓存 网页正常情况下可以忽略此条命令<br><code># hexo clean</code><br>2.第二步生成静态网页<br><code># hexo g</code><br>3.第三步启动服务本地预览<br><code># hexo s</code><br>4.第四步开始部署<br><code># hexo d</code>    </p>
 <p>完成以上步骤，看看博客右下角是不是有一个可爱的看板娘❤</p>
@@ -566,7 +568,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://ccrc001.github.io/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/">http://ccrc001.github.io/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/</a>
+                    <a href="http://ccrc001.github.io/2021/05/0559226.html">http://ccrc001.github.io/2021/05/0559226.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -782,7 +784,7 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/">
+                <a href="/2021/05/0559226.html">
                     <div class="card-image">
                         
                         
@@ -832,7 +834,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/04/zi-ding-yi-deng-lu-ye-mian/">
+                <a href="/2021/05/0456349.html">
                     <div class="card-image">
                         
                         
@@ -1107,7 +1109,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.1k</span>&nbsp;字
+                class="white-color">991</span>&nbsp;字
             
             
             
