@@ -6,7 +6,7 @@
   <link href="http://ccrc001.github.io/atom.xml" rel="self"/>
   
   <link href="http://ccrc001.github.io/"/>
-  <updated>2021-05-05T12:33:07.603Z</updated>
+  <updated>2021-05-05T13:48:18.192Z</updated>
   <id>http://ccrc001.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://ccrc001.github.io/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/"/>
     <id>http://ccrc001.github.io/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/</id>
     <published>2021-05-05T06:28:02.000Z</published>
-    <updated>2021-05-05T12:33:07.603Z</updated>
+    <updated>2021-05-05T13:48:18.192Z</updated>
     
     
       
@@ -34,6 +34,8 @@
     
     
     
+    <category term="live2d" scheme="http://ccrc001.github.io/categories/live2d/"/>
+    
     
     <category term="live2d" scheme="http://ccrc001.github.io/tags/live2d/"/>
     
@@ -44,7 +46,7 @@
     <link href="http://ccrc001.github.io/2021/05/04/zi-ding-yi-deng-lu-ye-mian/"/>
     <id>http://ccrc001.github.io/2021/05/04/zi-ding-yi-deng-lu-ye-mian/</id>
     <published>2021-05-04T15:01:26.000Z</published>
-    <updated>2021-05-04T15:14:31.708Z</updated>
+    <updated>2021-05-05T13:47:07.857Z</updated>
     
     
       
@@ -59,6 +61,8 @@
     
     
     
+    <category term="html" scheme="http://ccrc001.github.io/categories/html/"/>
+    
     
     <category term="html" scheme="http://ccrc001.github.io/tags/html/"/>
     
@@ -69,7 +73,7 @@
     <link href="http://ccrc001.github.io/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/"/>
     <id>http://ccrc001.github.io/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/</id>
     <published>2021-05-04T14:10:45.000Z</published>
-    <updated>2021-05-04T14:58:24.073Z</updated>
+    <updated>2021-05-05T13:48:34.634Z</updated>
     
     
       
@@ -81,6 +85,8 @@
       
     
     
+    
+    <category term="web" scheme="http://ccrc001.github.io/categories/web/"/>
     
     
     <category term="web" scheme="http://ccrc001.github.io/tags/web/"/>
