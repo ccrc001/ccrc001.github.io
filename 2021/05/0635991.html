@@ -478,7 +478,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    256
+                    288
                 </div>
                 
 
@@ -511,12 +511,12 @@
                 <h1 id="增强版看板娘"><a href="#增强版看板娘" class="headerlink" title="增强版看板娘"></a>增强版看板娘</h1><p>1.请先卸载helper-live2d  </p>
 <pre class="line-numbers language-none"><code class="language-none">npm uninstall hexo-helper-live2d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>2.<a target="_blank" rel="noopener" href="https://github.com/stevenjoezhang/live2d-widget">下载大神的配置</a>  </p>
-<p>3.压缩到主目录<code>\themes\主题\source</code>目录下并改名为<code>live2d-widget</code><br><img src="/img/xjml.png"><br>4.修改<code>autoload.js</code>文件，将大神路径改为绝对路径<br>说明：这个绝对路径是编译后 根目录 位置在themes/sakura/source  </p>
+<p>2.<a target="_blank" rel="noopener" href="https://github.com/stevenjoezhang/live2d-widget">下载大神的配置戳一下</a>  </p>
+<p>3.压缩到主目录<code>\themes\主题\source</code>目录下并改名为<code>live2d-widget</code><br><img src="/img/xjml.png"><br>4.修改<code>autoload.js</code>文件，将大神路径改为绝对路径   </p>
 <pre class="line-numbers language-none"><code class="language-none">// 注意：live2d_path 参数应使用绝对路径
 //const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
 const live2d_path = "/live2d-widget/";<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>5.修改<code>\hexoblog\themes\sakura\layout\_partial</code>目录下的<code>head.ejs</code>  </p>
+<p>5.修改<code>\hexoblog\themes\主题\layout\_partial</code>目录下的<code>head.ejs</code><br>next主题,是在/themes/next/layout/_layout.swing目录下</p>
 <pre class="line-numbers language-none"><code class="language-none">&lt;!--看板娘--&gt;
 &lt;script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script src="/live2d-widget/autoload.js"&gt;&lt;/script&gt;
@@ -524,7 +524,9 @@ const live2d_path = "/live2d-widget/";<span aria-hidden="true" class="line-numbe
 <p>6.在<code>\hexoblog\_config.yml</code>全局配置文末添加    </p>
 <pre class="line-numbers language-none"><code class="language-none">live2d: ##自定义看板娘动画
 enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>1.第一步清除缓存 网页正常情况下可以忽略此条命令<br><code># hexo clean</code><br>2.第二步生成静态网页<br><code># hexo g</code><br>3.第三步启动服务本地预览<br><code># hexo s</code><br>4.第四步开始部署<br><code># hexo d</code><br><img src="/img/kbn.png"></p>
+<p>想修改看板娘大小、位置、格式、文本内容等，可查看并修改 waifu-tips.js 、 waifu-tips.json 、waifu.css文件。</p>
+<p>1.第一步清除缓存 网页正常情况下可以忽略此条命令<br><code># hexo clean</code><br>2.第二步生成静态网页<br><code># hexo g</code><br>3.第三步启动服务本地预览<br><code># hexo s</code><br>4.第四步开始部署<br><code># hexo d</code>  </p>
+<h2 id="演示效果"><a href="#演示效果" class="headerlink" title="演示效果"></a>演示效果</h2><p><img src="/img/kbn.png"></p>
 
                 
             </div>
@@ -1092,7 +1094,7 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.2k</span>&nbsp;字
+                class="white-color">1.3k</span>&nbsp;字
             
             
             
