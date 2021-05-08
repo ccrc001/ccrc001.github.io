@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="自定义登录页面, ccrc">
+    <meta name="keywords" content="Hexo添加helper-live2d动态模型插件, ccrc">
     <meta name="description" content="人生本来就是一场即兴演出,没有做不成的梦,只有不早醒的人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>自定义登录页面 | ccrc</title>
+    <title>Hexo添加helper-live2d动态模型插件 | ccrc</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -318,12 +318,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">自定义登录页面</h1>
+                    <h1 class="description center-align post-title">Hexo添加helper-live2d动态模型插件</h1>
                 </div>
             </div>
         </div>
@@ -439,8 +439,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/html/">
-                                <span class="chip bg-color">html</span>
+                            <a href="/tags/live2d/">
+                                <span class="chip bg-color">live2d</span>
                             </a>
                         
                     </div>
@@ -451,8 +451,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/html/" class="post-category">
-                                html
+                            <a href="/categories/live2d/" class="post-category">
+                                live2d
                             </a>
                         
                     </div>
@@ -464,28 +464,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-05-05
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-05
+                    2021-05-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    218
+                    644
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -508,63 +508,77 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一个别具一格的登录页面"><a href="#一个别具一格的登录页面" class="headerlink" title="一个别具一格的登录页面"></a>一个别具一格的登录页面</h1><ul>
-<li><p>style位置</p>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
-		<span class="token selector">body</span><span class="token punctuation">{</span><span class="token property">margin</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span><span class="token punctuation">}</span>
-		<span class="token selector">#bigbox</span><span class="token punctuation">{</span>
-			<span class="token property">margin</span><span class="token punctuation">:</span> 150px 50px 0px 1000px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span> 20px 50px<span class="token punctuation">;</span><span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>35<span class="token punctuation">,</span> 57<span class="token punctuation">,</span> 94<span class="token punctuation">,</span> 0.7<span class="token punctuation">)</span><span class="token punctuation">;</span>
-			<span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span><span class="token property">border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span><span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token selector">#bigbox h1</span><span class="token punctuation">{</span>
-			<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
-			
-		<span class="token punctuation">}</span>
-		<span class="token selector">#bigbox .inputBox</span><span class="token punctuation">{</span>
-			<span class="token property">margin-top</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token selector">#bigbox .inputBox .inputText</span><span class="token punctuation">{</span>
-			<span class="token property">margin-top</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token selector">#bigbox .inputBox .inputText span</span><span class="token punctuation">{</span>
-			<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token selector">#bigbox .inputBox .inputText input</span><span class="token punctuation">{</span>
-			<span class="token property">border</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span> 10 10px<span class="token punctuation">;</span><span class="token property">border-bottom</span><span class="token punctuation">:</span>1px solid white<span class="token punctuation">;</span><span class="token property">background-color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
-			<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token selector">#bigbox .inputBox .inputButtn</span><span class="token punctuation">{</span>
-			<span class="token property">border</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">width</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span><span class="token property">color</span><span class="token punctuation">:</span>white<span class="token punctuation">;</span> <span class="token property">margin-top</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span><span class="token property">border-radius</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
-			<span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>120deg<span class="token punctuation">,</span> #a6c0fe 0%<span class="token punctuation">,</span> #f68084 100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
-			
-		<span class="token punctuation">}</span>
-	</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
-  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
-<li><p> body内写入    </p>
-</li>
-</ul>
-<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bigbox<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>LOGIN<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
-	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputBox<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-		
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputText<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>iconfont icon-yonghu<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Username<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-	
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputText<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>iconfont icon-Lock_icon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
-			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Password<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
-		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-		
-	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputButtn<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>LOGIN<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
-	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <h1 id="Hexo博客详细添加helper-live2d动态模型插件"><a href="#Hexo博客详细添加helper-live2d动态模型插件" class="headerlink" title="Hexo博客详细添加helper-live2d动态模型插件"></a>Hexo博客详细添加helper-live2d动态模型插件</h1><h3 id="1-安装模块"><a href="#1-安装模块" class="headerlink" title="1.安装模块"></a>1.安装模块</h3><p> <strong>在hexo根目录执行命令</strong></p>
+<pre class="line-numbers language-none"><code class="language-none"># npm install --save hexo-helper-live2d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
+<p>如何卸载模型</p>
+<pre class="line-numbers language-none"><code class="language-none"># npm uninstall --save hexo-helper-live2d <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="2-下载喜欢的模型"><a href="#2-下载喜欢的模型" class="headerlink" title="2.下载喜欢的模型"></a>2.下载喜欢的模型</h3><p>  作者各种模型包展示 ➡️ <a target="_blank" rel="noopener" href="https://huaji8.top/post/live2d-plugin-2.0/">hexo live2d插件 2.0 !</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/xiazeyu/live2d-widget-models">live2d模型仓库直达</a></p>
+<p>↓ 各个模型库<br>使用 npm install {packagename}`安装模型  </p>
 <ul>
-<li>成型样子    </li>
+<li><code>live2d-widget-model-chitose</code></li>
+<li><code>live2d-widget-model-epsilon2_1</code></li>
+<li><code>live2d-widget-model-gf</code></li>
+<li><code>live2d-widget-model-haru/01</code> (use <code>npm install --save live2d-widget-model-haru</code>)</li>
+<li><code>live2d-widget-model-haru/02</code> (use <code>npm install --save live2d-widget-model-haru</code>)</li>
+<li><code>live2d-widget-model-haruto</code></li>
+<li><code>live2d-widget-model-hibiki</code></li>
+<li><code>live2d-widget-model-hijiki</code></li>
+<li><code>live2d-widget-model-izumi</code></li>
+<li><code>live2d-widget-model-koharu</code></li>
+<li><code>live2d-widget-model-miku</code></li>
+<li><code>live2d-widget-model-ni-j</code></li>
+<li><code>live2d-widget-model-nico</code></li>
+<li><code>live2d-widget-model-nietzsche</code></li>
+<li><code>live2d-widget-model-nipsilon</code></li>
+<li><code>live2d-widget-model-nito</code></li>
+<li><code>live2d-widget-model-shizuku</code></li>
+<li><code>live2d-widget-model-tororo</code></li>
+<li><code>live2d-widget-model-tsumiki</code></li>
+<li><code>live2d-widget-model-unitychan</code></li>
+<li><code>live2d-widget-model-wanko</code></li>
+<li><code>live2d-widget-model-z16</code></li>
 </ul>
-<p><img src="/img/tp.png"></p>
+<p>我用的是 <code>npm install live2d-widget-model-hibiki</code></p>
+<h3 id="3-详细配置"><a href="#3-详细配置" class="headerlink" title="3.详细配置"></a>3.详细配置</h3><p>1.提前在根目录下创建 <code>live2d_models</code> 目录<br><img src="/img/cjml.png">  </p>
+<p>2.下载好的模型库会在根目录node_modules文件夹中，在该文件夹中搜索模型库名称<code>live2d-widget-model-hibiki</code>将里面的内容复制到提前创建好的目录下<code>live2d_models</code><br><img src="/img/mlx.png"><br>3.开始配置根目录下的<code>_config.yml</code> 文件在底部添加如下操作   </p>
+<pre class="line-numbers language-none"><code class="language-none"># 看板娘
+live2d:
+  enable: true
+  #enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-hibiki
+    # use: live2d-widget-model-wanko # npm-module package name
+    # use: wanko # 博客根目录/live2d_models/ 下的目录名
+    # use: ./wives/wanko # 相对于博客根目录的路径
+    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+  display:
+    position: right
+    width: 145
+    height: 315
+    hOffset: 60 # 水平偏移 
+    vOffset: 5 # 垂直偏移
+  mobile:
+    show: true # 是否在移动设备上显示
+    scale: 0.5 # 移动设备上的缩放       
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.8<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>注意！   </p>
+<p>​    <code>model:   ​    use: live2d-widget-model-hibikiuse # 这里填你喜欢的模型</code></p>
+<p>4.上传<br>1.第一步清除缓存 网页正常情况下可以忽略此条命令<br><code># hexo clean</code><br>2.第二步生成静态网页<br><code># hexo g</code><br>3.第三步启动服务本地预览<br><code># hexo s</code><br>4.第四步开始部署<br><code># hexo d</code>    </p>
+<p>完成以上步骤，看看博客右下角是不是有一个可爱的看板娘❤</p>
 
                 
             </div>
@@ -591,7 +605,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://diy-sprint.top/2021/05/04/zi-ding-yi-deng-lu-ye-mian/">https://diy-sprint.top/2021/05/04/zi-ding-yi-deng-lu-ye-mian/</a>
+                    <a href="https://diy-sprint.top/2021/050559226.html">https://diy-sprint.top/2021/050559226.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -629,8 +643,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/html/">
-                                    <span class="chip bg-color">html</span>
+                                <a href="/tags/live2d/">
+                                    <span class="chip bg-color">live2d</span>
                                 </a>
                             
                         </div>
@@ -806,13 +820,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/05/05/ru-he-gei-hexo-bo-ke-tian-jia-helper-live2d-dong-tai-mo-xing-cha-jian/">
+                <a href="/2021/050635991.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Hexo添加helper-live2d动态模型插件">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="添加live2d看板动画(可对话，换装互动)">
                         
-                        <span class="card-title">Hexo添加helper-live2d动态模型插件</span>
+                        <span class="card-title">添加live2d看板动画(可对话，换装互动)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -823,7 +837,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
                         </span>
                         <span class="publish-author">
                             
@@ -855,13 +869,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/">
+                <a href="/2021/050456349.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="快速搭建炫丽的博客">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="自定义登录页面">
                         
-                        <span class="card-title">快速搭建炫丽的博客</span>
+                        <span class="card-title">自定义登录页面</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -878,8 +892,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/web/" class="post-category">
-                                    web
+                            <a href="/categories/html/" class="post-category">
+                                    html
                                 </a>
                             
                             
@@ -889,8 +903,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/web/">
-                        <span class="chip bg-color">web</span>
+                    <a href="/tags/html/">
+                        <span class="chip bg-color">html</span>
                     </a>
                     
                 </div>

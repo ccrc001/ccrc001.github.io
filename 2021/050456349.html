@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="快速搭建炫丽的博客, ccrc">
+    <meta name="keywords" content="自定义登录页面, ccrc">
     <meta name="description" content="人生本来就是一场即兴演出,没有做不成的梦,只有不早醒的人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>快速搭建炫丽的博客 | ccrc</title>
+    <title>自定义登录页面 | ccrc</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -318,12 +318,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">快速搭建炫丽的博客</h1>
+                    <h1 class="description center-align post-title">自定义登录页面</h1>
                 </div>
             </div>
         </div>
@@ -439,8 +439,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/web/">
-                                <span class="chip bg-color">web</span>
+                            <a href="/tags/html/">
+                                <span class="chip bg-color">html</span>
                             </a>
                         
                     </div>
@@ -451,8 +451,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/web/" class="post-category">
-                                web
+                            <a href="/categories/html/" class="post-category">
+                                html
                             </a>
                         
                     </div>
@@ -478,7 +478,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    54
+                    218
                 </div>
                 
 
@@ -508,11 +508,63 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="网站搭建"><a href="#网站搭建" class="headerlink" title="网站搭建"></a>网站搭建</h1><h2 id="需要的软件编辑器"><a href="#需要的软件编辑器" class="headerlink" title="需要的软件编辑器"></a>需要的软件编辑器</h2><ul>
-<li> 链接<a target="_blank" rel="noopener" href="https://pc.qq.com/detail/1/detail_24041.html">Typory</a> Typora是一款好用极简免费的跨平台Markdown编辑器  </li>
-<li>链接<a target="_blank" rel="noopener" href="https://blog.csdn.net/Zhangguohao666/article/details/105665412">Vscode</a>VSCode是一款微软出的轻量级编辑器附带安装教程  </li>
+                <h1 id="一个别具一格的登录页面"><a href="#一个别具一格的登录页面" class="headerlink" title="一个别具一格的登录页面"></a>一个别具一格的登录页面</h1><ul>
+<li><p>style位置</p>
+<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+		<span class="token selector">body</span><span class="token punctuation">{</span><span class="token property">margin</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">background-image</span><span class="token punctuation">:</span><span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span><span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span><span class="token punctuation">}</span>
+		<span class="token selector">#bigbox</span><span class="token punctuation">{</span>
+			<span class="token property">margin</span><span class="token punctuation">:</span> 150px 50px 0px 1000px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span> 20px 50px<span class="token punctuation">;</span><span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>35<span class="token punctuation">,</span> 57<span class="token punctuation">,</span> 94<span class="token punctuation">,</span> 0.7<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span><span class="token property">border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span><span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token selector">#bigbox h1</span><span class="token punctuation">{</span>
+			<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+			
+		<span class="token punctuation">}</span>
+		<span class="token selector">#bigbox .inputBox</span><span class="token punctuation">{</span>
+			<span class="token property">margin-top</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token selector">#bigbox .inputBox .inputText</span><span class="token punctuation">{</span>
+			<span class="token property">margin-top</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token selector">#bigbox .inputBox .inputText span</span><span class="token punctuation">{</span>
+			<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token selector">#bigbox .inputBox .inputText input</span><span class="token punctuation">{</span>
+			<span class="token property">border</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">padding</span><span class="token punctuation">:</span> 10 10px<span class="token punctuation">;</span><span class="token property">border-bottom</span><span class="token punctuation">:</span>1px solid white<span class="token punctuation">;</span><span class="token property">background-color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
+			<span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token selector">#bigbox .inputBox .inputButtn</span><span class="token punctuation">{</span>
+			<span class="token property">border</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span><span class="token property">width</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span><span class="token property">color</span><span class="token punctuation">:</span>white<span class="token punctuation">;</span> <span class="token property">margin-top</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span><span class="token property">border-radius</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+			<span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>120deg<span class="token punctuation">,</span> #a6c0fe 0%<span class="token punctuation">,</span> #f68084 100%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			
+		<span class="token punctuation">}</span>
+	</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p> body内写入    </p>
+</li>
 </ul>
-<p><img src="https://uploadfile.bizhizu.cn/up/59/a4/44/59a4448d734dcde1703f2d858ae00080.jpg"></p>
+<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bigbox<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>LOGIN<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputBox<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+		
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputText<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>iconfont icon-yonghu<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Username<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+	
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputText<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>iconfont icon-Lock_icon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Password<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+		
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputButtn<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>LOGIN<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li>成型样子    </li>
+</ul>
+<p><img src="/img/tp.png"></p>
 
                 
             </div>
@@ -539,7 +591,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://diy-sprint.top/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/">https://diy-sprint.top/2021/05/04/kuai-su-da-jian-xuan-li-de-bo-ke/</a>
+                    <a href="https://diy-sprint.top/2021/050456349.html">https://diy-sprint.top/2021/050456349.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -577,8 +629,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/web/">
-                                    <span class="chip bg-color">web</span>
+                                <a href="/tags/html/">
+                                    <span class="chip bg-color">html</span>
                                 </a>
                             
                         </div>
@@ -754,13 +806,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/05/04/zi-ding-yi-deng-lu-ye-mian/">
+                <a href="/2021/050559226.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="自定义登录页面">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Hexo添加helper-live2d动态模型插件">
                         
-                        <span class="card-title">自定义登录页面</span>
+                        <span class="card-title">Hexo添加helper-live2d动态模型插件</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -771,14 +823,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-05
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/html/" class="post-category">
-                                    html
+                            <a href="/categories/live2d/" class="post-category">
+                                    live2d
                                 </a>
                             
                             
@@ -788,8 +840,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/html/">
-                        <span class="chip bg-color">html</span>
+                    <a href="/tags/live2d/">
+                        <span class="chip bg-color">live2d</span>
                     </a>
                     
                 </div>
@@ -803,13 +855,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/03/hello-world/">
+                <a href="/2021/05049934.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="快速搭建炫丽的博客">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">快速搭建炫丽的博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -820,15 +872,27 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            山山而川
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/web/" class="post-category">
+                                    web
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/web/">
+                        <span class="chip bg-color">web</span>
+                    </a>
+                    
                 </div>
                 
             </div>
