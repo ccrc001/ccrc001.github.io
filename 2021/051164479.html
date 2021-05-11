@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="添加live2d看板动画(可对话，换装互动), ccrc">
+    <meta name="keywords" content="PHP正则表达式规则, ccrc">
     <meta name="description" content="人生本来就是一场即兴演出,没有做不成的梦,只有不早醒的人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>添加live2d看板动画(可对话，换装互动) | ccrc</title>
+    <title>PHP正则表达式规则 | ccrc</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -318,12 +318,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">添加live2d看板动画(可对话，换装互动)</h1>
+                    <h1 class="description center-align post-title">PHP正则表达式规则</h1>
                 </div>
             </div>
         </div>
@@ -439,8 +439,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/live2d/">
-                                <span class="chip bg-color">live2d</span>
+                            <a href="/tags/PHP/">
+                                <span class="chip bg-color">PHP</span>
                             </a>
                         
                     </div>
@@ -451,8 +451,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/live2d/" class="post-category">
-                                live2d
+                            <a href="/categories/PHP/" class="post-category">
+                                PHP
                             </a>
                         
                     </div>
@@ -464,7 +464,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-06
+                    2021-05-11
                 </div>
                 
 
@@ -478,7 +478,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    287
+                    534
                 </div>
                 
 
@@ -508,23 +508,29 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="增强版看板娘"><a href="#增强版看板娘" class="headerlink" title="增强版看板娘"></a>增强版看板娘</h2><h3 id="1-请先卸载helper-live2d"><a href="#1-请先卸载helper-live2d" class="headerlink" title="1.请先卸载helper-live2d"></a>1.请先卸载helper-live2d</h3><pre class="line-numbers language-none"><code class="language-none">npm uninstall hexo-helper-live2d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h3 id="2-下载大神的配置戳一下"><a href="#2-下载大神的配置戳一下" class="headerlink" title="2.下载大神的配置戳一下"></a>2.<a target="_blank" rel="noopener" href="https://github.com/stevenjoezhang/live2d-widget">下载大神的配置戳一下</a></h3><h3 id="3-压缩到主目录-themes-主题-source目录下并改名为live2d-widget"><a href="#3-压缩到主目录-themes-主题-source目录下并改名为live2d-widget" class="headerlink" title="3.压缩到主目录\themes\主题\source目录下并改名为live2d-widget"></a>3.压缩到主目录<code>\themes\主题\source</code>目录下并改名为<code>live2d-widget</code></h3><p><img src="/img/xjml.png">  </p>
-<h3 id="4-修改autoload-js文件，将大神路径改为绝对路径"><a href="#4-修改autoload-js文件，将大神路径改为绝对路径" class="headerlink" title="4.修改autoload.js文件，将大神路径改为绝对路径"></a>4.修改<code>autoload.js</code>文件，将大神路径改为绝对路径</h3><pre class="line-numbers language-none"><code class="language-none">// 注意：live2d_path 参数应使用绝对路径
-//const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
-const live2d_path = "/live2d-widget/";<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="5-修改-hexoblog-themes-主题-layout-partial目录下的head-ejs"><a href="#5-修改-hexoblog-themes-主题-layout-partial目录下的head-ejs" class="headerlink" title="5.修改\hexoblog\themes\主题\layout\_partial目录下的head.ejs"></a>5.修改<code>\hexoblog\themes\主题\layout\_partial</code>目录下的<code>head.ejs</code></h3><p>next主题,是在/themes/next/layout/_layout.swing目录下</p>
-<pre class="line-numbers language-none"><code class="language-none">&lt;!--看板娘--&gt;
-&lt;script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script src="/live2d-widget/autoload.js"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="6-在-hexoblog-config-yml全局配置文末添加"><a href="#6-在-hexoblog-config-yml全局配置文末添加" class="headerlink" title="6.在\hexoblog\_config.yml全局配置文末添加"></a>6.在<code>\hexoblog\_config.yml</code>全局配置文末添加</h3><pre class="line-numbers language-none"><code class="language-none">live2d: ##自定义看板娘动画
-enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>想修改看板娘大小、位置、格式、文本内容等，可查看并修改 waifu-tips.js 、 waifu-tips.json 、waifu.css文件。</p>
-<p>1.第一步清除缓存 网页正常情况下可以忽略此条命令<br><code># hexo clean</code><br>2.第二步生成静态网页<br><code># hexo g</code><br>3.第三步启动服务本地预览<br><code># hexo s</code><br>4.第四步开始部署<br><code># hexo d</code>  </p>
-<h3 id="演示效果"><a href="#演示效果" class="headerlink" title="演示效果"></a>演示效果</h3><p><img src="/img/kbn.png"></p>
-
+                <h2 id="1-定位符：规定位置的符号"><a href="#1-定位符：规定位置的符号" class="headerlink" title="1.定位符：规定位置的符号"></a>1.定位符：规定位置的符号</h2><pre class="line-numbers language-none"><code class="language-none">​	^	匹配字符串的开始位置。
+​	$	匹配字符串的结束位置。
+​	\b   匹配一个单词边界，也就是指单词和空格间的位置。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="2-类型限定符-对字符类型进行限定"><a href="#2-类型限定符-对字符类型进行限定" class="headerlink" title="2.类型限定符:对字符类型进行限定"></a>2.类型限定符:对字符类型进行限定</h2><pre class="line-numbers language-none"><code class="language-none">​	\d	匹配一个数字字符。
+​	\w	匹配字母、数字、下划线。
+​	\s	匹配任何空白字符，包括空格、制表符、换行符等等。
+​	.   匹配除换行符以外的任意字符,可以匹配汉字  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="3-重复限定符-把重复部分用合适的限定符替代"><a href="#3-重复限定符-把重复部分用合适的限定符替代" class="headerlink" title="3.重复限定符:把重复部分用合适的限定符替代"></a>3.重复限定符:把重复部分用合适的限定符替代</h2><pre class="line-numbers language-none"><code class="language-none">​	*	重复零次或多次。* 号代表前面的一个字符可以不出现，也可以出现一次或者多次	
+​	+	重复一次或多次。+ 号代表前面的一个字符最少出现一次	
+​	?	重复零次或一次。? 号代表前面的一个字符可以不出现，也可以出现一次，但不能出现多次  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="4-次数限定符-规定明确的重复次数"><a href="#4-次数限定符-规定明确的重复次数" class="headerlink" title="4.次数限定符:规定明确的重复次数"></a>4.次数限定符:规定明确的重复次数</h2><pre class="line-numbers language-none"><code class="language-none">{n}	    n 是一个非负整数。匹配确定的 n 次。
+{n,}	n 是一个非负整数。至少匹配n 次。
+{n,m}	m 和 n 均为非负整数，其中n &lt;= m。最少匹配 n 次且最多匹配 m 次。  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="5-区间"><a href="#5-区间" class="headerlink" title="5.区间"></a>5.区间</h2><pre class="line-numbers language-none"><code class="language-none">正则提供一个中括号 [] 来表示区间条件。
+[0-9]:0-9之间的任意一个数字(包括)
+[a-z]或[A-Z]:小写a-z或大写A-Z之间的任意一个字母(包括)
+[567]或[abc]:匹配指定字符中的任意一个  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="6-反义符：不想匹配某些字符"><a href="#6-反义符：不想匹配某些字符" class="headerlink" title="6.反义符：不想匹配某些字符"></a>6.反义符：不想匹配某些字符</h2><pre class="line-numbers language-none"><code class="language-none">\B	匹配非单词边界。
+\D	匹配一个非数字字符。       	   
+\W	匹配非字母、数字、下划线。          
+\S	匹配任何非空白字符。		   	
+[^] 匹配除了指定字符外的任意字符  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="正则表达式中用小括号-来做分组，也就是括号中的内容作为一个整体"><a href="#正则表达式中用小括号-来做分组，也就是括号中的内容作为一个整体" class="headerlink" title="正则表达式中用小括号()来做分组，也就是括号中的内容作为一个整体"></a>正则表达式中用小括号()来做分组，也就是括号中的内容作为一个整体</h3><h3 id="正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是"><a href="#正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是" class="headerlink" title="正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是\"></a>正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是\</h3>
                 
             </div>
             <hr/>
@@ -550,7 +556,7 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://diy-sprint.top/2021/050635991.html">https://diy-sprint.top/2021/050635991.html</a>
+                    <a href="https://diy-sprint.top/2021/051164479.html">https://diy-sprint.top/2021/051164479.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -588,8 +594,8 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/live2d/">
-                                    <span class="chip bg-color">live2d</span>
+                                <a href="/tags/PHP/">
+                                    <span class="chip bg-color">PHP</span>
                                 </a>
                             
                         </div>
@@ -761,9 +767,10 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/051164479.html">
                     <div class="card-image">
@@ -781,9 +788,9 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-11
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-11
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -796,6 +803,7 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -814,13 +822,13 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/050559226.html">
+                <a href="/2021/050635991.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Hexo添加helper-live2d动态模型插件">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="添加live2d看板动画(可对话，换装互动)">
                         
-                        <span class="card-title">Hexo添加helper-live2d动态模型插件</span>
+                        <span class="card-title">添加live2d看板动画(可对话，换装互动)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -831,7 +839,7 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
                             </span>
                         <span class="publish-author">
                             

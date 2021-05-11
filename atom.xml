@@ -6,7 +6,7 @@
   <link href="https://diy-sprint.top/atom.xml" rel="self"/>
   
   <link href="https://diy-sprint.top/"/>
-  <updated>2021-05-06T14:16:38.402Z</updated>
+  <updated>2021-05-11T14:39:01.558Z</updated>
   <id>https://diy-sprint.top/</id>
   
   <author>
@@ -17,19 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PHP正则表达式规则</title>
+    <link href="https://diy-sprint.top/2021/051164479.html"/>
+    <id>https://diy-sprint.top/2021/051164479.html</id>
+    <published>2021-05-11T14:14:39.000Z</published>
+    <updated>2021-05-11T14:39:01.558Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-定位符：规定位置的符号&quot;&gt;&lt;a href=&quot;#1-定位符：规定位置的符号&quot; class=&quot;headerlink&quot; title=&quot;1.定位符：规定位置的符号&quot;&gt;&lt;/a&gt;1.定位符：规定位置的符号&lt;/h2&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://diy-sprint.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://diy-sprint.top/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>添加live2d看板动画(可对话，换装互动)</title>
     <link href="https://diy-sprint.top/2021/050635991.html"/>
     <id>https://diy-sprint.top/2021/050635991.html</id>
     <published>2021-05-06T12:33:13.000Z</published>
-    <updated>2021-05-06T14:16:38.402Z</updated>
+    <updated>2021-05-11T14:45:24.808Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;增强版看板娘&quot;&gt;&lt;a href=&quot;#增强版看板娘&quot; class=&quot;headerlink&quot; title=&quot;增强版看板娘&quot;&gt;&lt;/a&gt;增强版看板娘&lt;/h1&gt;&lt;p&gt;1.请先卸载helper-live2d  &lt;/p&gt;
-&lt;pre class=&quot;line-numbers</summary>
+    <summary type="html">&lt;h2 id=&quot;增强版看板娘&quot;&gt;&lt;a href=&quot;#增强版看板娘&quot; class=&quot;headerlink&quot; title=&quot;增强版看板娘&quot;&gt;&lt;/a&gt;增强版看板娘&lt;/h2&gt;&lt;h3 id=&quot;1-请先卸载helper-live2d&quot;&gt;&lt;a</summary>
         
       
     
@@ -47,7 +71,7 @@
     <link href="https://diy-sprint.top/2021/050559226.html"/>
     <id>https://diy-sprint.top/2021/050559226.html</id>
     <published>2021-05-05T06:28:02.000Z</published>
-    <updated>2021-05-06T13:30:37.394Z</updated>
+    <updated>2021-05-11T14:40:25.267Z</updated>
     
     
       
