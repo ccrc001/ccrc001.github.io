@@ -102,6 +102,13 @@
 
   
   <url>
+    <loc>https://diy-sprint.top/tags/MySQL/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://diy-sprint.top/tags/PHP/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
@@ -116,13 +123,6 @@
   </url>
   
   <url>
-    <loc>https://diy-sprint.top/tags/web/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://diy-sprint.top/tags/html/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
@@ -130,13 +130,20 @@
   </url>
   
   <url>
-    <loc>https://diy-sprint.top/tags/MySQL/</loc>
+    <loc>https://diy-sprint.top/tags/web/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://diy-sprint.top/categories/MySQL/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://diy-sprint.top/categories/PHP/</loc>
@@ -153,13 +160,6 @@
   </url>
   
   <url>
-    <loc>https://diy-sprint.top/categories/web/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://diy-sprint.top/categories/html/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
@@ -167,7 +167,7 @@
   </url>
   
   <url>
-    <loc>https://diy-sprint.top/categories/MySQL/</loc>
+    <loc>https://diy-sprint.top/categories/web/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
