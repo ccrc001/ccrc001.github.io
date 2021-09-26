@@ -555,7 +555,7 @@ header .go-back i {
 }
 
 .bg-cover:after {
-  -webkit-animation: rainbow 60s infinite;
+  -webkit-animation:;
   animation: rainbow 60s infinite;
 }
 
