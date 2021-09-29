@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="PHP正则表达式规则, ccrc">
+    <meta name="keywords" content="HTML-命名规范, ccrc">
     <meta name="description" content="人生本来就是一场即兴演出,没有做不成的梦,只有不早醒的人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>PHP正则表达式规则 | ccrc</title>
+    <title>HTML-命名规范 | ccrc</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">PHP正则表达式规则</h1>
+                    <h1 class="description center-align post-title">HTML-命名规范</h1>
                 </div>
             </div>
         </div>
@@ -434,8 +434,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/PHP/">
-                                <span class="chip bg-color">PHP</span>
+                            <a href="/tags/HTML/">
+                                <span class="chip bg-color">HTML</span>
                             </a>
                         
                     </div>
@@ -446,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/PHP/" class="post-category">
-                                PHP
+                            <a href="/categories/HTML/" class="post-category">
+                                HTML
                             </a>
                         
                     </div>
@@ -459,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-11
+                    2021-09-29
                 </div>
                 
 
@@ -483,29 +483,115 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-定位符：规定位置的符号"><a href="#1-定位符：规定位置的符号" class="headerlink" title="1.定位符：规定位置的符号"></a>1.定位符：规定位置的符号</h2><pre class="line-numbers language-none"><code class="language-none">​	^	匹配字符串的开始位置。
-​	$	匹配字符串的结束位置。
-​	\b   匹配一个单词边界，也就是指单词和空格间的位置。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="2-类型限定符-对字符类型进行限定"><a href="#2-类型限定符-对字符类型进行限定" class="headerlink" title="2.类型限定符:对字符类型进行限定"></a>2.类型限定符:对字符类型进行限定</h2><pre class="line-numbers language-none"><code class="language-none">​	\d	匹配一个数字字符。
-​	\w	匹配字母、数字、下划线。
-​	\s	匹配任何空白字符，包括空格、制表符、换行符等等。
-​	.   匹配除换行符以外的任意字符,可以匹配汉字  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="3-重复限定符-把重复部分用合适的限定符替代"><a href="#3-重复限定符-把重复部分用合适的限定符替代" class="headerlink" title="3.重复限定符:把重复部分用合适的限定符替代"></a>3.重复限定符:把重复部分用合适的限定符替代</h2><pre class="line-numbers language-none"><code class="language-none">​	*	重复零次或多次。* 号代表前面的一个字符可以不出现，也可以出现一次或者多次	
-​	+	重复一次或多次。+ 号代表前面的一个字符最少出现一次	
-​	?	重复零次或一次。? 号代表前面的一个字符可以不出现，也可以出现一次，但不能出现多次  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="4-次数限定符-规定明确的重复次数"><a href="#4-次数限定符-规定明确的重复次数" class="headerlink" title="4.次数限定符:规定明确的重复次数"></a>4.次数限定符:规定明确的重复次数</h2><pre class="line-numbers language-none"><code class="language-none">{n}	    n 是一个非负整数。匹配确定的 n 次。
-{n,}	n 是一个非负整数。至少匹配n 次。
-{n,m}	m 和 n 均为非负整数，其中n &lt;= m。最少匹配 n 次且最多匹配 m 次。  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="5-区间"><a href="#5-区间" class="headerlink" title="5.区间"></a>5.区间</h2><pre class="line-numbers language-none"><code class="language-none">正则提供一个中括号 [] 来表示区间条件。
-[0-9]:0-9之间的任意一个数字(包括)
-[a-z]或[A-Z]:小写a-z或大写A-Z之间的任意一个字母(包括)
-[567]或[abc]:匹配指定字符中的任意一个  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="6-反义符：不想匹配某些字符"><a href="#6-反义符：不想匹配某些字符" class="headerlink" title="6.反义符：不想匹配某些字符"></a>6.反义符：不想匹配某些字符</h2><pre class="line-numbers language-none"><code class="language-none">\B	匹配非单词边界。
-\D	匹配一个非数字字符。       	   
-\W	匹配非字母、数字、下划线。          
-\S	匹配任何非空白字符。		   	
-[^] 匹配除了指定字符外的任意字符  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="正则表达式中用小括号-来做分组，也就是括号中的内容作为一个整体"><a href="#正则表达式中用小括号-来做分组，也就是括号中的内容作为一个整体" class="headerlink" title="正则表达式中用小括号()来做分组，也就是括号中的内容作为一个整体"></a>正则表达式中用小括号()来做分组，也就是括号中的内容作为一个整体</h3><h3 id="正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是"><a href="#正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是" class="headerlink" title="正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是\"></a>正则提供了转义的方式，也就是要把这些元字符、限定符或者关键字转义成普通的字符，在要转义的字符前面加个反斜杠，也就是\</h3>
+                <h1 id="有助于团队合作的css命名规范"><a href="#有助于团队合作的css命名规范" class="headerlink" title="有助于团队合作的css命名规范"></a>有助于团队合作的css命名规范</h1><h3 id="常用的css命名规则"><a href="#常用的css命名规则" class="headerlink" title="常用的css命名规则"></a>常用的css命名规则</h3><p>快捷导航栏: shortcut  </p>
+<p>头部：header</p>
+<p>标志: logo  </p>
+<p>购物车: shopcar  </p>
+<p>内容：content/container</p>
+<p>尾：footer</p>
+<p>导航：nav  </p>
+<p>导航左侧: dropdown 包含.dd .dt  </p>
+<p>导航右侧: navitems  </p>
+<p>侧栏：sidebar</p>
+<p>栏目：column</p>
+<p>左右中：left right center</p>
+<p>登录条：loginbar</p>
+<p>广告：banner</p>
+<p>页面主体：main</p>
+<p>热点：hot</p>
+<p>新闻：news</p>
+<p>下载：download</p>
+<p>子导航：subnav</p>
+<p>菜单：menu</p>
+<p>子菜单：submenu</p>
+<p>搜索：search</p>
+<p>友情链接：friendlink</p>
+<p>页脚：footer</p>
+<p>版权：copyright</p>
+<p>滚动：scroll</p>
+<p>内容：content</p>
+<p>标签页：tab</p>
+<p>文章列表：list</p>
+<p>提示信息：msg</p>
+<p>小技巧：tips</p>
+<p>栏目标题：title</p>
+<p>加入：joinus</p>
+<p>指南：guild</p>
+<p>注册：regsiter</p>
+<p>状态：status</p>
+<p>投票：vote</p>
+<p>合作伙伴：partner  </p>
+<p>页面外围控制整体布局宽度：wrapper   </p>
+<p>页面底部服务模块:  mod_service  </p>
+<p>页面底部帮助模块:  mod_help  </p>
+<p>页面底部版权模块:  mod_copyright</p>
+<h2 id="id的命名"><a href="#id的命名" class="headerlink" title="id的命名:"></a>id的命名:</h2><h3 id="1-页面结构"><a href="#1-页面结构" class="headerlink" title="(1)页面结构"></a>(1)页面结构</h3><p>容器: container</p>
+<p>页头：header</p>
+<p>内容：content/container</p>
+<p>页面主体：main</p>
+<p>页尾：footer</p>
+<p>导航：nav</p>
+<p>侧栏：sidebar</p>
+<p>栏目：column</p>
+<p>页面外围控制整体布局宽度：wrapper</p>
+<p>左右中：left right center</p>
+<h3 id="2-导航"><a href="#2-导航" class="headerlink" title="(2)导航"></a>(2)导航</h3><p>导航：nav</p>
+<p>主导航：mainbav</p>
+<p>子导航：subnav</p>
+<p>顶导航：topnav</p>
+<p>边导航：sidebar</p>
+<p>左导航：leftsidebar</p>
+<p>右导航：rightsidebar</p>
+<p>菜单：menu</p>
+<p>子菜单：submenu</p>
+<p>标题: title</p>
+<p>摘要: summary</p>
+<h3 id="3-功能"><a href="#3-功能" class="headerlink" title="(3)功能"></a>(3)功能</h3><p>标志：logo</p>
+<p>广告：banner</p>
+<p>登陆：login</p>
+<p>登录条：loginbar</p>
+<p>注册：regsiter</p>
+<p>搜索：search</p>
+<p>功能区：shop</p>
+<p>标题：title</p>
+<p>加入：joinus</p>
+<p>状态：status</p>
+<p>按钮：btn</p>
+<p>滚动：scroll</p>
+<p>标签页：tab</p>
+<p>文章列表：list</p>
+<p>提示信息：msg</p>
+<p>当前的: current</p>
+<p>小技巧：tips</p>
+<p>图标: icon</p>
+<p>注释：note</p>
+<p>指南：guild</p>
+<p>服务：service</p>
+<p>热点：hot</p>
+<p>新闻：news</p>
+<p>下载：download</p>
+<p>投票：vote</p>
+<p>合作伙伴：partner</p>
+<p>友情链接：link</p>
+<p>版权：copyright</p>
+<h3 id="四-class的命名"><a href="#四-class的命名" class="headerlink" title="(四)class的命名:"></a>(四)class的命名:</h3><h4 id="1-颜色-使用颜色的名称或者16进制代码-如"><a href="#1-颜色-使用颜色的名称或者16进制代码-如" class="headerlink" title="(1)颜色:使用颜色的名称或者16进制代码,如"></a>(1)颜色:使用颜色的名称或者16进制代码,如</h4><p>.red { color: red; }</p>
+<p>.ccc { color: #ccc; }</p>
+<p>.f5f5f5 { color: #f5f5f5; }</p>
+<h4 id="2-字体大小-直接使用”font-字体大小”作为名称-如"><a href="#2-字体大小-直接使用”font-字体大小”作为名称-如" class="headerlink" title="(2)字体大小,直接使用”font+字体大小”作为名称,如"></a>(2)字体大小,直接使用”font+字体大小”作为名称,如</h4><p>.font12px { font-size: 12px; }</p>
+<p>.font9pt {font-size: 9pt; }</p>
+<h4 id="3-对齐样式-使用对齐目标的英文名称-如"><a href="#3-对齐样式-使用对齐目标的英文名称-如" class="headerlink" title="(3)对齐样式,使用对齐目标的英文名称,如"></a>(3)对齐样式,使用对齐目标的英文名称,如</h4><p>.left { float:left; }</p>
+<p>.bottom { float:bottom; }</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项:"></a>注意事项:</h2><h3 id="css部分"><a href="#css部分" class="headerlink" title="css部分"></a>css部分</h3><p>主要的 master.css</p>
+<p>模块 module.css</p>
+<p>基本共用 base.css</p>
+<p>布局，版面 layout.css</p>
+<p>主题 themes.css</p>
+<p>专栏 columns.css</p>
+<p>文字 font.css</p>
+<p>表单 forms.css</p>
+<p>补丁 mend.css</p>
+<p>打印 print.css</p>
+
                 
             </div>
             <hr/>
@@ -531,7 +617,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://diy-sprint.top/2021/051164479.html">https://diy-sprint.top/2021/051164479.html</a>
+                    <a href="https://diy-sprint.top/2021/092914536.html">https://diy-sprint.top/2021/092914536.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -569,8 +655,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/PHP/">
-                                    <span class="chip bg-color">PHP</span>
+                                <a href="/tags/HTML/">
+                                    <span class="chip bg-color">HTML</span>
                                 </a>
                             
                         </div>
@@ -742,9 +828,60 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2021/092914536.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="HTML-命名规范">
+                        
+                        <span class="card-title">HTML-命名规范</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/HTML/" class="post-category">
+                                    HTML
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2021/05111.html">
                     <div class="card-image">
@@ -762,9 +899,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-11
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-11
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -782,55 +919,6 @@
                     
                     <a href="/tags/MySQL/">
                         <span class="chip bg-color">MySQL</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/050635991.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="添加live2d看板动画(可对话，换装互动)">
-                        
-                        <span class="card-title">添加live2d看板动画(可对话，换装互动)</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/live2d/" class="post-category">
-                                    live2d
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/live2d/">
-                        <span class="chip bg-color">live2d</span>
                     </a>
                     
                 </div>

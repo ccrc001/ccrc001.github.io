@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>HTML-命名规范</title>
+      <link href="2021/092914536.html"/>
+      <url>2021/092914536.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="有助于团队合作的css命名规范"><a href="#有助于团队合作的css命名规范" class="headerlink" title="有助于团队合作的css命名规范"></a>有助于团队合作的css命名规范</h1><h3 id="常用的css命名规则"><a href="#常用的css命名规则" class="headerlink" title="常用的css命名规则"></a>常用的css命名规则</h3><p>快捷导航栏: shortcut  </p><p>头部：header</p><p>标志: logo  </p><p>购物车: shopcar  </p><p>内容：content/container</p><p>尾：footer</p><p>导航：nav  </p><p>导航左侧: dropdown 包含.dd .dt  </p><p>导航右侧: navitems  </p><p>侧栏：sidebar</p><p>栏目：column</p><p>左右中：left right center</p><p>登录条：loginbar</p><p>广告：banner</p><p>页面主体：main</p><p>热点：hot</p><p>新闻：news</p><p>下载：download</p><p>子导航：subnav</p><p>菜单：menu</p><p>子菜单：submenu</p><p>搜索：search</p><p>友情链接：friendlink</p><p>页脚：footer</p><p>版权：copyright</p><p>滚动：scroll</p><p>内容：content</p><p>标签页：tab</p><p>文章列表：list</p><p>提示信息：msg</p><p>小技巧：tips</p><p>栏目标题：title</p><p>加入：joinus</p><p>指南：guild</p><p>注册：regsiter</p><p>状态：status</p><p>投票：vote</p><p>合作伙伴：partner  </p><p>页面外围控制整体布局宽度：wrapper   </p><p>页面底部服务模块:  mod_service  </p><p>页面底部帮助模块:  mod_help  </p><p>页面底部版权模块:  mod_copyright</p><h2 id="id的命名"><a href="#id的命名" class="headerlink" title="id的命名:"></a>id的命名:</h2><h3 id="1-页面结构"><a href="#1-页面结构" class="headerlink" title="(1)页面结构"></a>(1)页面结构</h3><p>容器: container</p><p>页头：header</p><p>内容：content/container</p><p>页面主体：main</p><p>页尾：footer</p><p>导航：nav</p><p>侧栏：sidebar</p><p>栏目：column</p><p>页面外围控制整体布局宽度：wrapper</p><p>左右中：left right center</p><h3 id="2-导航"><a href="#2-导航" class="headerlink" title="(2)导航"></a>(2)导航</h3><p>导航：nav</p><p>主导航：mainbav</p><p>子导航：subnav</p><p>顶导航：topnav</p><p>边导航：sidebar</p><p>左导航：leftsidebar</p><p>右导航：rightsidebar</p><p>菜单：menu</p><p>子菜单：submenu</p><p>标题: title</p><p>摘要: summary</p><h3 id="3-功能"><a href="#3-功能" class="headerlink" title="(3)功能"></a>(3)功能</h3><p>标志：logo</p><p>广告：banner</p><p>登陆：login</p><p>登录条：loginbar</p><p>注册：regsiter</p><p>搜索：search</p><p>功能区：shop</p><p>标题：title</p><p>加入：joinus</p><p>状态：status</p><p>按钮：btn</p><p>滚动：scroll</p><p>标签页：tab</p><p>文章列表：list</p><p>提示信息：msg</p><p>当前的: current</p><p>小技巧：tips</p><p>图标: icon</p><p>注释：note</p><p>指南：guild</p><p>服务：service</p><p>热点：hot</p><p>新闻：news</p><p>下载：download</p><p>投票：vote</p><p>合作伙伴：partner</p><p>友情链接：link</p><p>版权：copyright</p><h3 id="四-class的命名"><a href="#四-class的命名" class="headerlink" title="(四)class的命名:"></a>(四)class的命名:</h3><h4 id="1-颜色-使用颜色的名称或者16进制代码-如"><a href="#1-颜色-使用颜色的名称或者16进制代码-如" class="headerlink" title="(1)颜色:使用颜色的名称或者16进制代码,如"></a>(1)颜色:使用颜色的名称或者16进制代码,如</h4><p>.red { color: red; }</p><p>.ccc { color: #ccc; }</p><p>.f5f5f5 { color: #f5f5f5; }</p><h4 id="2-字体大小-直接使用”font-字体大小”作为名称-如"><a href="#2-字体大小-直接使用”font-字体大小”作为名称-如" class="headerlink" title="(2)字体大小,直接使用”font+字体大小”作为名称,如"></a>(2)字体大小,直接使用”font+字体大小”作为名称,如</h4><p>.font12px { font-size: 12px; }</p><p>.font9pt {font-size: 9pt; }</p><h4 id="3-对齐样式-使用对齐目标的英文名称-如"><a href="#3-对齐样式-使用对齐目标的英文名称-如" class="headerlink" title="(3)对齐样式,使用对齐目标的英文名称,如"></a>(3)对齐样式,使用对齐目标的英文名称,如</h4><p>.left { float:left; }</p><p>.bottom { float:bottom; }</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项:"></a>注意事项:</h2><h3 id="css部分"><a href="#css部分" class="headerlink" title="css部分"></a>css部分</h3><p>主要的 master.css</p><p>模块 module.css</p><p>基本共用 base.css</p><p>布局，版面 layout.css</p><p>主题 themes.css</p><p>专栏 columns.css</p><p>文字 font.css</p><p>表单 forms.css</p><p>补丁 mend.css</p><p>打印 print.css</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据库基本命令合集</title>
       <link href="2021/05111.html"/>
       <url>2021/05111.html</url>
