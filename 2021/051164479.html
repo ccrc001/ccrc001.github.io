@@ -469,7 +469,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-11
+                    2021-10-02
                 </div>
                 
 
@@ -506,24 +506,24 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-定位符：规定位置的符号"><a href="#1-定位符：规定位置的符号" class="headerlink" title="1.定位符：规定位置的符号"></a>1.定位符：规定位置的符号</h2><pre class="line-numbers language-none"><code class="language-none">​	^	匹配字符串的开始位置。
+                <h2 id="1-定位符：规定位置的符号"><a href="#1-定位符：规定位置的符号" class="headerlink" title="1.定位符：规定位置的符号"></a>1.定位符：规定位置的符号</h2><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">	^	匹配字符串的开始位置。
 ​	$	匹配字符串的结束位置。
 ​	\b   匹配一个单词边界，也就是指单词和空格间的位置。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="2-类型限定符-对字符类型进行限定"><a href="#2-类型限定符-对字符类型进行限定" class="headerlink" title="2.类型限定符:对字符类型进行限定"></a>2.类型限定符:对字符类型进行限定</h2><pre class="line-numbers language-none"><code class="language-none">​	\d	匹配一个数字字符。
+<h2 id="2-类型限定符-对字符类型进行限定"><a href="#2-类型限定符-对字符类型进行限定" class="headerlink" title="2.类型限定符:对字符类型进行限定"></a>2.类型限定符:对字符类型进行限定</h2><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">	\d	匹配一个数字字符。
 ​	\w	匹配字母、数字、下划线。
 ​	\s	匹配任何空白字符，包括空格、制表符、换行符等等。
 ​	.   匹配除换行符以外的任意字符,可以匹配汉字  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="3-重复限定符-把重复部分用合适的限定符替代"><a href="#3-重复限定符-把重复部分用合适的限定符替代" class="headerlink" title="3.重复限定符:把重复部分用合适的限定符替代"></a>3.重复限定符:把重复部分用合适的限定符替代</h2><pre class="line-numbers language-none"><code class="language-none">​	*	重复零次或多次。* 号代表前面的一个字符可以不出现，也可以出现一次或者多次	
+<h2 id="3-重复限定符-把重复部分用合适的限定符替代"><a href="#3-重复限定符-把重复部分用合适的限定符替代" class="headerlink" title="3.重复限定符:把重复部分用合适的限定符替代"></a>3.重复限定符:把重复部分用合适的限定符替代</h2><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">	*	重复零次或多次。* 号代表前面的一个字符可以不出现，也可以出现一次或者多次	
 ​	+	重复一次或多次。+ 号代表前面的一个字符最少出现一次	
 ​	?	重复零次或一次。? 号代表前面的一个字符可以不出现，也可以出现一次，但不能出现多次  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="4-次数限定符-规定明确的重复次数"><a href="#4-次数限定符-规定明确的重复次数" class="headerlink" title="4.次数限定符:规定明确的重复次数"></a>4.次数限定符:规定明确的重复次数</h2><pre class="line-numbers language-none"><code class="language-none">{n}	    n 是一个非负整数。匹配确定的 n 次。
+<h2 id="4-次数限定符-规定明确的重复次数"><a href="#4-次数限定符-规定明确的重复次数" class="headerlink" title="4.次数限定符:规定明确的重复次数"></a>4.次数限定符:规定明确的重复次数</h2><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">{n}	    n 是一个非负整数。匹配确定的 n 次。
 {n,}	n 是一个非负整数。至少匹配n 次。
 {n,m}	m 和 n 均为非负整数，其中n &lt;= m。最少匹配 n 次且最多匹配 m 次。  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="5-区间"><a href="#5-区间" class="headerlink" title="5.区间"></a>5.区间</h2><pre class="line-numbers language-none"><code class="language-none">正则提供一个中括号 [] 来表示区间条件。
+<h2 id="5-区间"><a href="#5-区间" class="headerlink" title="5.区间"></a>5.区间</h2><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">正则提供一个中括号 [] 来表示区间条件。
 [0-9]:0-9之间的任意一个数字(包括)
 [a-z]或[A-Z]:小写a-z或大写A-Z之间的任意一个字母(包括)
 [567]或[abc]:匹配指定字符中的任意一个  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="6-反义符：不想匹配某些字符"><a href="#6-反义符：不想匹配某些字符" class="headerlink" title="6.反义符：不想匹配某些字符"></a>6.反义符：不想匹配某些字符</h2><pre class="line-numbers language-none"><code class="language-none">\B	匹配非单词边界。
+<h2 id="6-反义符：不想匹配某些字符"><a href="#6-反义符：不想匹配某些字符" class="headerlink" title="6.反义符：不想匹配某些字符"></a>6.反义符：不想匹配某些字符</h2><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">\B	匹配非单词边界。
 \D	匹配一个非数字字符。       	   
 \W	匹配非字母、数字、下划线。          
 \S	匹配任何非空白字符。		   	
@@ -1379,7 +1379,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.7k</span>&nbsp;字
+                class="white-color">3k</span>&nbsp;字
             
             
             

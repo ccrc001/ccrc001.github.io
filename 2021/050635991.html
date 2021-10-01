@@ -469,7 +469,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-11
+                    2021-10-02
                 </div>
                 
 
@@ -506,18 +506,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="增强版看板娘"><a href="#增强版看板娘" class="headerlink" title="增强版看板娘"></a>增强版看板娘</h2><h3 id="1-请先卸载helper-live2d"><a href="#1-请先卸载helper-live2d" class="headerlink" title="1.请先卸载helper-live2d"></a>1.请先卸载helper-live2d</h3><pre class="line-numbers language-none"><code class="language-none">npm uninstall hexo-helper-live2d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h2 id="增强版看板娘"><a href="#增强版看板娘" class="headerlink" title="增强版看板娘"></a>增强版看板娘</h2><h3 id="1-请先卸载helper-live2d"><a href="#1-请先卸载helper-live2d" class="headerlink" title="1.请先卸载helper-live2d"></a>1.请先卸载helper-live2d</h3><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">npm uninstall hexo-helper-live2d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="2-下载大神的配置戳一下"><a href="#2-下载大神的配置戳一下" class="headerlink" title="2.下载大神的配置戳一下"></a>2.<a target="_blank" rel="noopener" href="https://github.com/stevenjoezhang/live2d-widget">下载大神的配置戳一下</a></h3><h3 id="3-压缩到主目录-themes-主题-source目录下并改名为live2d-widget"><a href="#3-压缩到主目录-themes-主题-source目录下并改名为live2d-widget" class="headerlink" title="3.压缩到主目录\themes\主题\source目录下并改名为live2d-widget"></a>3.压缩到主目录<code>\themes\主题\source</code>目录下并改名为<code>live2d-widget</code></h3><p><img src="/img/xjml.png">  </p>
-<h3 id="4-修改autoload-js文件，将大神路径改为绝对路径"><a href="#4-修改autoload-js文件，将大神路径改为绝对路径" class="headerlink" title="4.修改autoload.js文件，将大神路径改为绝对路径"></a>4.修改<code>autoload.js</code>文件，将大神路径改为绝对路径</h3><pre class="line-numbers language-none"><code class="language-none">// 注意：live2d_path 参数应使用绝对路径
+<h3 id="4-修改autoload-js文件，将大神路径改为绝对路径"><a href="#4-修改autoload-js文件，将大神路径改为绝对路径" class="headerlink" title="4.修改autoload.js文件，将大神路径改为绝对路径"></a>4.修改<code>autoload.js</code>文件，将大神路径改为绝对路径</h3><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">// 注意：live2d_path 参数应使用绝对路径
 //const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
 const live2d_path = "/live2d-widget/";<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h3 id="5-修改-hexoblog-themes-主题-layout-partial目录下的head-ejs"><a href="#5-修改-hexoblog-themes-主题-layout-partial目录下的head-ejs" class="headerlink" title="5.修改\hexoblog\themes\主题\layout\_partial目录下的head.ejs"></a>5.修改<code>\hexoblog\themes\主题\layout\_partial</code>目录下的<code>head.ejs</code></h3><p>next主题,是在/themes/next/layout/_layout.swing目录下</p>
-<pre class="line-numbers language-none"><code class="language-none">&lt;!--看板娘--&gt;
+<pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">&lt;!--看板娘--&gt;
 &lt;script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script src="/live2d-widget/autoload.js"&gt;&lt;/script&gt;
 &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="6-在-hexoblog-config-yml全局配置文末添加"><a href="#6-在-hexoblog-config-yml全局配置文末添加" class="headerlink" title="6.在\hexoblog\_config.yml全局配置文末添加"></a>6.在<code>\hexoblog\_config.yml</code>全局配置文末添加</h3><pre class="line-numbers language-none"><code class="language-none">live2d: ##自定义看板娘动画
+<h3 id="6-在-hexoblog-config-yml全局配置文末添加"><a href="#6-在-hexoblog-config-yml全局配置文末添加" class="headerlink" title="6.在\hexoblog\_config.yml全局配置文末添加"></a>6.在<code>\hexoblog\_config.yml</code>全局配置文末添加</h3><pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">live2d: ##自定义看板娘动画
 enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>想修改看板娘大小、位置、格式、文本内容等，可查看并修改 waifu-tips.js 、 waifu-tips.json 、waifu.css文件。</p>
 <p>1.第一步清除缓存 网页正常情况下可以忽略此条命令<br><code># hexo clean</code><br>2.第二步生成静态网页<br><code># hexo g</code><br>3.第三步启动服务本地预览<br><code># hexo s</code><br>4.第四步开始部署<br><code># hexo d</code>  </p>
@@ -1373,7 +1373,7 @@ enable: true  <span aria-hidden="true" class="line-numbers-rows"><span></span><s
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.7k</span>&nbsp;字
+                class="white-color">3k</span>&nbsp;字
             
             
             

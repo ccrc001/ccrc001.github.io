@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Onlooker">
+    <meta name="keywords" content="Markdown语法基础总结, Onlooker">
     <meta name="description" content="人生本来就是一场即兴演出,没有做不成的梦,只有不早醒的人。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Onlooker</title>
+    <title>Markdown语法基础总结 | Onlooker</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -316,12 +316,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">Markdown语法基础总结</h1>
                 </div>
             </div>
         </div>
@@ -435,12 +435,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Markdown/" class="post-category">
+                                Markdown
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -449,21 +462,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-03
+                    2021-10-02
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-05
+                    2021-10-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    400
                 </div>
                 
 
@@ -493,19 +506,135 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p># H1<br>## H2<br>### H3<br>#### H4<br>##### H5<br>###### H6<br>（注意：#号和文字间至少得有一个空格,最多六级标题）  </p>
+<p>效果如下 ↓<br><img src="/img/biaoti.png">  </p>
+<h2 id="2-多级引用-列标记-分割线"><a href="#2-多级引用-列标记-分割线" class="headerlink" title="2.多级引用+列标记(+ - )+分割线(-_)"></a>2.多级引用+列标记(+ - <em>)+分割线(</em>-_)</h2><p>引用需要在被引用的文本前加上&gt;符号和空格，允许多层嵌套</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>看到这就可以了   </p>
+<ul>
+<li></li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p> 继续继续下去  </p>
+<ul>
+<li></li>
+</ul>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>  今天就到这了  </p>
+<ul>
+<li></li>
+</ul>
+</blockquote>
+<hr>
+<hr>
+<p>———————分割线<br>效果如下 ↓  </p>
+<p><img src="/img/duoji.png"> </p>
+<h2 id="3-文本强调"><a href="#3-文本强调" class="headerlink" title="3.文本强调"></a>3.文本强调</h2><p> Markdown 使用星号（*）和底线（_）作为斜体，被 ** 或 __包围的字词作为粗体，用三个 *** 或 ___包起来的字词作为粗斜体   </p>
+<p> <em>斜体</em>  or  <em>斜体</em><br> <strong>粗体</strong>  or  <strong>粗体</strong><br> <em><strong>粗斜体</strong></em> or  <em><strong>粗斜体</strong></em>  </p>
+<p> 效果如下 ↓<br><img src="/img/cuti.png"> </p>
+<h2 id="4-链接及图片引用"><a href="#4-链接及图片引用" class="headerlink" title="4.链接及图片引用"></a>4.链接及图片引用</h2><p> 链接文字用 [方括号] 来标记,方块括号紧接着用 (圆括) 号并插入网址链接，如果要加上链接的 title 文字，只要在网址后面，用 “双引号” 把 title 文字包起来即可  </p>
+<p> 行内式 <a target="_blank" rel="noopener" href="https://www.baidu.com/" title="链接描述">百度</a><br> 显示地址 <a target="_blank" rel="noopener" href="https://www.baidu.com/">https://www.baidu.com</a><br> !<a href="url">图片文字</a>   与链接一样只是在开头多了个！<br> <img src="https://www.baidu.com/img/flexible/logo/pc/result.png" alt="百度"></p>
+<p> 效果如下 ↓<br><img src="/img/tupian.png">   </p>
+<h2 id="5-目录"><a href="#5-目录" class="headerlink" title="5.目录"></a>5.目录</h2><p> 效果如下 ↓<br> <img src="/img/ml.png">   </p>
+<h2 id="6-转义："><a href="#6-转义：" class="headerlink" title="6.转义："></a>6.转义：</h2><p> Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<pre class="line-numbers language-Text" data-language="Text"><code class="language-Text">\   反斜线  
+`   反引号
+*   星号
+_   底线
+{}  花括号
+[]  方括号
+()  括弧
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   惊叹号     <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>##补充特殊字符  </p>
+<table>
+<thead>
+<tr>
+<th align="left">特殊字符</th>
+<th>描述</th>
+<th>字符的代码</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"></td>
+<td>空格符</td>
+<td>&amp;nbsp;</td>
+</tr>
+<tr>
+<td align="left">&lt;</td>
+<td>小于号</td>
+<td><code>&lt;</code></td>
+</tr>
+<tr>
+<td align="left">&gt;</td>
+<td>大于号</td>
+<td><code>&gt;</code></td>
+</tr>
+<tr>
+<td align="left">&amp;</td>
+<td>与号</td>
+<td><code>&amp;</code></td>
+</tr>
+<tr>
+<td align="left">￥</td>
+<td>人民币</td>
+<td><code>¥</code></td>
+</tr>
+<tr>
+<td align="left">©</td>
+<td>版权</td>
+<td><code>©</code></td>
+</tr>
+<tr>
+<td align="left">®</td>
+<td>注册商标</td>
+<td><code>®</code></td>
+</tr>
+<tr>
+<td align="left">°C</td>
+<td>摄氏度</td>
+<td><code>°C</code></td>
+</tr>
+<tr>
+<td align="left">±</td>
+<td>正负号</td>
+<td><code>±</code></td>
+</tr>
+<tr>
+<td align="left">×</td>
+<td>乘号</td>
+<td><code>×</code></td>
+</tr>
+<tr>
+<td align="left">÷</td>
+<td>除号</td>
+<td><code>÷</code></td>
+</tr>
+<tr>
+<td align="left">²</td>
+<td>平方（上标²）</td>
+<td><code>²</code></td>
+</tr>
+<tr>
+<td align="left">³</td>
+<td>立方（上标³）</td>
+<td><code>³</code></td>
+</tr>
+</tbody></table>
 
                 
             </div>
@@ -532,7 +661,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://diy-sprint.top/2021/050316107.html">https://diy-sprint.top/2021/050316107.html</a>
+                    <a href="https://diy-sprint.top/2021/10023323.html">https://diy-sprint.top/2021/10023323.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -569,7 +698,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1062,66 +1195,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/05049934.html">
+                <a href="/2021/10023323.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="快速搭建炫丽的博客">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Markdown语法基础总结">
                         
-                        <span class="card-title">快速搭建炫丽的博客</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/web/" class="post-category">
-                                    web
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/web/">
-                        <span class="chip bg-color">web</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/050316107.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Markdown语法基础总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1132,17 +1217,78 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-02
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            山山而川
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/092914536.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="HTML-命名规范">
+                        
+                        <span class="card-title">HTML-命名规范</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/html/" class="post-category">
+                                    html
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/html/">
+                        <span class="chip bg-color">html</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1342,7 +1488,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.7k</span>&nbsp;字
+                class="white-color">3k</span>&nbsp;字
             
             
             
