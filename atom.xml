@@ -6,7 +6,7 @@
   <link href="https://diy-sprint.top/atom.xml" rel="self"/>
   
   <link href="https://diy-sprint.top/"/>
-  <updated>2021-10-04T09:56:08.644Z</updated>
+  <updated>2021-11-14T07:30:52.971Z</updated>
   <id>https://diy-sprint.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML 5学习</title>
+    <link href="https://diy-sprint.top/2021/103040398.html"/>
+    <id>https://diy-sprint.top/2021/103040398.html</id>
+    <published>2021-10-30T05:06:21.000Z</published>
+    <updated>2021-11-14T07:30:52.971Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;个人整理了一些不常用，但也记不住的一些语法&quot;&gt;&lt;a href=&quot;#个人整理了一些不常用，但也记不住的一些语法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="html5" scheme="https://diy-sprint.top/categories/html5/"/>
+    
+    
+    <category term="html5" scheme="https://diy-sprint.top/tags/html5/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法基础总结</title>

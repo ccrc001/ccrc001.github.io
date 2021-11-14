@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://diy-sprint.top/2021/103040398.html</loc>
+    
+    <lastmod>2021-11-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://diy-sprint.top/2021/10023323.html</loc>
     
     <lastmod>2021-10-04</lastmod>
@@ -102,50 +109,57 @@
 
   <url>
     <loc>https://diy-sprint.top/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://diy-sprint.top/tags/html5/</loc>
+    <lastmod>2021-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://diy-sprint.top/tags/html/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/tags/MySQL/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/tags/Markdown/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/tags/PHP/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/tags/live2d/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/tags/web/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -153,43 +167,50 @@
 
   
   <url>
+    <loc>https://diy-sprint.top/categories/html5/</loc>
+    <lastmod>2021-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://diy-sprint.top/categories/html/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/categories/MySQL/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/categories/Markdown/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/categories/PHP/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/categories/live2d/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://diy-sprint.top/categories/web/</loc>
-    <lastmod>2021-10-23</lastmod>
+    <lastmod>2021-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
